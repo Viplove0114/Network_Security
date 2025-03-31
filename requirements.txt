@@ -6,7 +6,7 @@ seaborn
 scipy
 scikit-learn
 certifi
-pymongo[srv]==3.6
+pymongo[srv]
 pymongo
 dill
 pyaml
