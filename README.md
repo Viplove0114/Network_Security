@@ -69,21 +69,8 @@ Network_Security/
 - Uses `scikit-learn` to build a predictive model.
 
 ### 5. **API Service**
-- `app.py` runs a FastAPI server for predictions.
-
----
-
-## Running the Project
-
-### Train the Model
-```bash
-python main.py
-```
-
-### Start the API Server
-```bash
-uvicorn app:app --reload
-```
+`app.py` runs a FastAPI server for predictions.
+- ![Screenshot (71)](https://github.com/user-attachments/assets/c43d1914-219e-4d41-a5a0-c071dc4b5eff)
 
 ---
 
@@ -96,16 +83,9 @@ uvicorn app:app --reload
 
 ---
 
-## Author
-Developed by **Viplove**  
-📧 viplovethakran4@gmail.com  
 
----
+https://github.com/user-attachments/assets/db66f128-bda7-474b-8079-1a0e972e319f
 
-This project is a powerful tool for network security monitoring and can be extended for real-world cybersecurity applications. 🚀
-
-
----
 
 ## MLflow & DagsHub Integration
 
@@ -145,7 +125,8 @@ DagsHub provides:
    - Check the **MLflow UI** for logged runs.
 
 ### MLflow & DagsHub Architecture
-![MLflow DagsHub Integration](A_conceptual_diagram_showing_MLflow_and_DagsHub_in.png)
+![1_xMmv-gDcfphbqOq19r7cDQ](https://github.com/user-attachments/assets/e67bda43-785d-4a23-bc75-43055781eed4)
+
 
 ---
 
