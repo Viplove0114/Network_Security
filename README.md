@@ -83,10 +83,7 @@ python main.py
 ### Start the API Server
 ```bash
 uvicorn app:app --reload
-``![Screenshot (72)](https://github.com/user-attachments/assets/9d35d418-afb7-4e58-8b00-4aab852df6c7)![Screenshot (71)](https://github.com/user-attachments/assets/797354a6-16d2-4921-a704-b8b36a21c752)
-
-`
-
+```
 
 ---
 
@@ -96,6 +93,16 @@ uvicorn app:app --reload
 ✅ **Secure MongoDB Data Storage**  
 ✅ **FastAPI for Real-time Predictions**  
 ✅ **Scalable and Modular Codebase**  
+
+---
+
+## Author
+Developed by **Viplove**  
+📧 viplovethakran4@gmail.com  
+
+---
+
+This project is a powerful tool for network security monitoring and can be extended for real-world cybersecurity applications. 🚀
 
 
 ---
@@ -135,11 +142,7 @@ DagsHub provides:
 
 3. **View Experiments in DagsHub**:
    - Go to **your DagsHub project URL**.
-   -
-
-https://github.com/user-attachments/assets/1cff81b4-2f0b-46a3-876b-5754d25d9063
-
- Check the **MLflow UI** for logged runs.
+   - Check the **MLflow UI** for logged runs.
 
 ### MLflow & DagsHub Architecture
 ![MLflow DagsHub Integration](A_conceptual_diagram_showing_MLflow_and_DagsHub_in.png)
@@ -151,6 +154,11 @@ https://github.com/user-attachments/assets/1cff81b4-2f0b-46a3-876b-5754d25d9063
 ### Train the Model
 ```bash
 python main.py
+```
+
+### Start the API Server
+```bash
+uvicorn app:app --reload
 ```
 
 ---
