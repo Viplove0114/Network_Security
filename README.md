@@ -94,6 +94,63 @@ uvicorn app:app --reload
 ✅ **FastAPI for Real-time Predictions**  
 ✅ **Scalable and Modular Codebase**  
 
+
+---
+
+## MLflow & DagsHub Integration
+
+### Why Use MLflow?
+MLflow helps in:
+- Tracking experiments, parameters, and metrics.
+- Managing and storing multiple model versions.
+- Reproducing results efficiently.
+
+### Why Use DagsHub?
+DagsHub provides:
+- A remote repository to store MLflow experiments.
+- A web interface to compare model versions.
+- Easy collaboration on ML projects.
+
+### Setting Up MLflow with DagsHub
+
+1. **Install MLflow**:
+   ```bash
+   pip install mlflow
+   ```
+
+2. **Configure MLflow to Use DagsHub**:
+   ```python
+   import mlflow
+
+   mlflow.set_tracking_uri("https://dagshub.com/YOUR_USERNAME/YOUR_PROJECT.mlflow")
+   mlflow.start_run()
+
+   mlflow.log_param("learning_rate", 0.01)
+   mlflow.log_metric("accuracy", 0.92)
+   mlflow.end_run()
+   ```
+
+3. **View Experiments in DagsHub**:
+   - Go to **your DagsHub project URL**.
+   - Check the **MLflow UI** for logged runs.
+
+### MLflow & DagsHub Architecture
+![MLflow DagsHub Integration](A_conceptual_diagram_showing_MLflow_and_DagsHub_in.png)
+
+---
+
+## Running the Project
+
+### Train the Model
+```bash
+python main.py
+```
+
+### Start the API Server
+```bash
+uvicorn app:app --reload
+```
+
 ---
 
 ## Author
